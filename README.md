@@ -1,4 +1,4 @@
-# Image Hidden Message
+# Hidden Message Image
 A simple program that allows you to hide messages in an image.
 >If they don't know that it's there, they can't hack it right? :L
 
@@ -10,7 +10,7 @@ Open source library [Pillow](https://github.com/python-pillow/Pillow) is needed.
 
 ### Installing
 ```
-git clone https://github.com/hsuanhauliu/image-hidden-message.git
+git clone https://github.com/hsuanhauliu/hidden-message-image.git
 ```
 
 ## Notes
