@@ -1,6 +1,6 @@
 # Hidden Message Image
 A simple program that allows you to hide messages in an image.
->If they don't know that it's there, they can't hack it right? :L
+>A picture is worth a thousand words.
 
 ## Getting started
 Follow the instructions below to get started.
