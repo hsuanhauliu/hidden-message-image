@@ -29,7 +29,7 @@ def encrypt(message, input_file, output_file="output.png"):
     pixels[0, 0] = (pixels[0, 0][0] + 4, pixels[0, 0][1], pixels[0, 0][2])
 
     # ecrypt message into the image
-    characters = decode_str(message)
+    characters = _decode_str(message)
     row, col = 0, 1
     for tu in characters:
         temp = pixels[col, row]
@@ -61,7 +61,7 @@ def encrypt(message, input_file, output_file="output.png"):
     print('New image created.')
 
 
-def decode_str(message):
+def _decode_str(message):
     """ Decode message to tuples to add to image pixels """
     res = [] # list of tuples containing decoded numbers
     for char in message:
