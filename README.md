@@ -27,7 +27,7 @@ pip install .
 Follow the commands below to run the program.
 
 ```
-hmi encrypt/decrypt
+hmi <encrypt/decrypt>
 ```
 
 #### Import As Python Package
@@ -39,7 +39,3 @@ You can also import the package in your code. See the [iPython notebook](https:/
 - Small pictures don't work well since it's "easier" to see the pixel changes. A ordinary photo would work perfectly.
 - Since each character is encoded into each pixel, images whose dimension is smaller than the number of characters in the message won't be able to fit the entire message in the picture.
 - Super white pixel color (RGB code (255, 255, 255)) is undesirable and will be skipped during encoding process.
-
-## Notes
-
-- Read [here](https://howardliusite.wordpress.com/2018/04/06/image-hidden-message-ihm/) to find out more!
